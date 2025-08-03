@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Nepal - Discover the Himalayan Kingdom | Avinash Singh Yadav</title>
+    <meta name="description" content="Explore Nepal's rich cultural heritage, religions, regions, UNESCO sites, tourism destinations, and ancient history with expert guide Avinash Singh Yadav.">
+    
+    <!-- Open Graph tags -->
+    <meta property="og:title" content="MY Nepal - Discover the Himalayan Kingdom">
+    <meta property="og:description" content="Explore Nepal's rich cultural heritage, religions, regions, UNESCO sites, tourism destinations, and ancient history.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1544966503-7cc5ac882d5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&h=630">
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>MY Nepal</h2>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#culture" class="nav-link">Culture</a>
+                <a href="#religions" class="nav-link">Religions</a>
+                <a href="#regions" class="nav-link">Regions</a>
+                <a href="#heritage" class="nav-link">Heritage</a>
+                <a href="#tourism" class="nav-link">Tourism</a>
+                <a href="#history" class="nav-link">History</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Discover the Heart of Nepal</h1>
+            <p class="hero-subtitle">Experience the rich cultural heritage, majestic mountains, and timeless traditions of the Himalayan kingdom</p>
+            <div class="hero-buttons">
+                <a href="#culture" class="btn btn-primary">Explore Culture</a>
+                <a href="#contact" class="btn btn-secondary">Plan Your Journey</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Culture Section -->
+    <section id="culture" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vibrant Culture</h2>
+                <p class="section-description">Experience the colorful festivals, traditional art forms, and living heritage that define Nepal's cultural identity.</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card" data-modal="dashain">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Dashain Festival celebration">
+                    </div>
+                    <div class="card-content">
+                        <h3>Dashain Festival</h3>
+                        <p>Nepal's biggest and most important festival celebrating the victory of good over evil.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="traditional-arts">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1605640840605-14ac1855827b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Traditional Newari architecture">
+                    </div>
+                    <div class="card-content">
+                        <h3>Traditional Arts & Crafts</h3>
+                        <p>Exquisite wood carvings, metalwork, and architectural marvels of ancient craftsmen.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="traditional-dance">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Traditional Nepali dancers">
+                    </div>
+                    <div class="card-content">
+                        <h3>Traditional Dance & Music</h3>
+                        <p>Graceful movements telling stories of gods, heroes, and ancient legends.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="ethnic-diversity">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Diverse ethnic communities">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ethnic Diversity</h3>
+                        <p>Over 125 ethnic groups contributing to Nepal's rich cultural tapestry.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Religions Section -->
+    <section id="religions" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sacred Religions</h2>
+                <p class="section-description">Discover the spiritual heart of Nepal through its diverse religious traditions and sacred practices.</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card" data-modal="buddhism">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544967889-d686eeb18fb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Buddhist monastery">
+                    </div>
+                    <div class="card-content">
+                        <h3>Buddhism - Birthplace of Buddha</h3>
+                        <p>Ancient monasteries and meditation practices in the birthplace of Buddha.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="hinduism">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1582694093663-d7d4c8b2b7d2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Hindu temple">
+                    </div>
+                    <div class="card-content">
+                        <h3>Hinduism - Sacred Traditions</h3>
+                        <p>Sacred temples and ancient traditions in the world's former Hindu kingdom.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="spiritual-practices">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1570197788417-0e82375c9371?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Prayer wheels">
+                    </div>
+                    <div class="card-content">
+                        <h3>Living Spiritual Practices</h3>
+                        <p>Prayer wheels, mantras, and meditation in daily Nepali life.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Heritage Section -->
+    <section id="heritage" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">UNESCO Heritage</h2>
+                <p class="section-description">Explore Nepal's UNESCO World Heritage Sites that preserve thousands of years of history.</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card" data-modal="kathmandu-durbar">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Kathmandu Durbar Square">
+                    </div>
+                    <div class="card-content">
+                        <h3>Kathmandu Durbar Square</h3>
+                        <p>Ancient royal palace complex with stunning architecture.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="boudhanath-stupa">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1565022788688-ac3fb3b34b85?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Boudhanath Stupa">
+                    </div>
+                    <div class="card-content">
+                        <h3>Boudhanath Stupa</h3>
+                        <p>One of the largest Buddhist stupas in the world.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="sagarmatha-park">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544966821-ac76014d8b29?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Sagarmatha National Park">
+                    </div>
+                    <div class="card-content">
+                        <h3>Sagarmatha National Park</h3>
+                        <p>Home to Mount Everest and unique Himalayan ecosystem.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="lumbini">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1582555172866-f73bb12a2ab3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Lumbini birthplace of Buddha">
+                    </div>
+                    <div class="card-content">
+                        <h3>Lumbini - Birthplace of Buddha</h3>
+                        <p>Sacred pilgrimage site where Buddha was born.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tourism Section -->
+    <section id="tourism" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Adventure Tourism</h2>
+                <p class="section-description">From trekking to mountaineering, Nepal offers world-class adventure experiences.</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card" data-modal="trekking">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=800" alt="Trekking in Nepal">
+                    </div>
+                    <div class="card-content">
+                        <h3>World-Class Trekking</h3>
+                        <p>Epic mountain trails and stunning vistas.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="mountaineering">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1551524164-687a55dd1126?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Mountaineering in Himalayas">
+                    </div>
+                    <div class="card-content">
+                        <h3>Mountaineering Paradise</h3>
+                        <p>Challenge yourself on the world's highest peaks.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="wildlife-safari">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1564594985645-4b6d6ac5dfb4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Wildlife safari in Nepal">
+                    </div>
+                    <div class="card-content">
+                        <h3>Wildlife Safari Adventures</h3>
+                        <p>Encounter tigers, rhinos, and exotic wildlife.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="adventure-sports">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Paragliding in Nepal">
+                    </div>
+                    <div class="card-content">
+                        <h3>Extreme Adventure Sports</h3>
+                        <p>Paragliding, white water rafting, and bungee jumping.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- History Section -->
+    <section id="history" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ancient History</h2>
+                <p class="section-description">Journey through millennia of rich history, from ancient kingdoms to modern Nepal.</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card" data-modal="ancient-kingdoms">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Ancient kingdoms architecture">
+                    </div>
+                    <div class="card-content">
+                        <h3>Ancient Kingdoms</h3>
+                        <p>The rise of powerful kingdoms in the Kathmandu Valley.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="unification">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1578662996442-48f60103fc96?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Nepal unification history">
+                    </div>
+                    <div class="card-content">
+                        <h3>Unification of Nepal</h3>
+                        <p>Prithvi Narayan Shah's campaign to unite the kingdoms.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="modern-nepal">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1554818343-3b27c6d14d39?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Modern democratic Nepal">
+                    </div>
+                    <div class="card-content">
+                        <h3>Modern Democratic Nepal</h3>
+                        <p>Transition from monarchy to federal democratic republic.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Regions Section -->
+    <section id="regions" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Diverse Regions</h2>
+                <p class="section-description">From the Himalayas to the Terai plains, explore Nepal's remarkable geographical diversity.</p>
+            </div>
+            <div class="content-grid">
+                <div class="content-card" data-modal="himalayas">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Himalayan mountains">
+                    </div>
+                    <div class="card-content">
+                        <h3>The Himalayas - Roof of the World</h3>
+                        <p>Home to Mount Everest and eight of the world's highest peaks.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="hill-region">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1544966503-7cc5ac882d5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Hill region terraces">
+                    </div>
+                    <div class="card-content">
+                        <h3>Hill Region - Cultural Heart</h3>
+                        <p>Terraced fields, ancient cities, and the cultural heart of Nepal.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="content-card" data-modal="terai-region">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1564594985645-4b6d6ac5dfb4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600" alt="Terai plains wildlife">
+                    </div>
+                    <div class="card-content">
+                        <h3>Terai Region - Wildlife Paradise</h3>
+                        <p>Fertile plains, wildlife sanctuaries, and diverse ethnic communities.</p>
+                        <button class="card-btn">
+                            Learn More
+                            <i data-lucide="arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contact Avinash Singh Yadav</h2>
+                <p class="section-description">Ready to explore Nepal? Get in touch for personalized travel consultation and authentic cultural experiences.</p>
+            </div>
+            
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-lucide="mail"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>avinash.s.yadav369@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-lucide="phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+977 9800889977</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i data-lucide="map-pin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Location</h3>
+                            <p>Kathmandu, Nepal</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <h3>Follow Me</h3>
+                        <div class="social-buttons">
+                            <a href="https://www.facebook.com/share/1AaRbSArAt/" target="_blank" class="social-btn facebook">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                                </svg>
+                            </a>
+                            <a href="https://www.instagram.com/avi_yadav939?igsh=YjRkbnRpNXdtZjlm" target="_blank" class="social-btn instagram">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                                </svg>
+                            </a>
+                            <a href="https://x.com/abinashyadav939?t=6-H8FpP1qYVqF8QhSqre9g&s=09" target="_blank" class="social-btn twitter">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-cta">
+                    <h3>Ready to Explore Nepal?</h3>
+                    <p>Contact me directly to plan your Nepal adventure and discover the hidden gems of the Himalayan kingdom.</p>
+                    <div class="cta-buttons">
+                        <a href="mailto:avinash.s.yadav369@gmail.com" class="btn btn-primary">
+                            <i data-lucide="mail"></i>
+                            Send Email
+                        </a>
+                        <a href="tel:+9779800889977" class="btn btn-secondary">
+                            <i data-lucide="phone"></i>
+                            Call Now
+                        </a>
+                    </div>
+                    <p class="cta-note">Based in Kathmandu, Nepal • Available for travel consultation and cultural experiences</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>MY Nepal</h3>
+                    <p>Discover the heart of the Himalayas with authentic cultural experiences and expert guidance.</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-section">
+                        <h4>Explore</h4>
+                        <a href="#culture">Culture</a>
+                        <a href="#religions">Religions</a>
+                        <a href="#regions">Regions</a>
+                        <a href="#heritage">Heritage</a>
+                    </div>
+                    <div class="footer-section">
+                        <h4>Experience</h4>
+                        <a href="#tourism">Tourism</a>
+                        <a href="#history">History</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Avinash Singh Yadav. All rights reserved.</p>
+                <p>Proudly showcasing Nepal's rich heritage and culture.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modals -->
+    <div id="modal-overlay" class="modal-overlay">
+        <div class="modal">
+            <div class="modal-header">
+                <h2 id="modal-title"></h2>
+                <button class="modal-close" id="modal-close">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+            <div class="modal-content">
+                <img id="modal-image" src="" alt="">
+                <div class="modal-text">
+                    <p id="modal-description"></p>
+                    <div id="modal-full-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
