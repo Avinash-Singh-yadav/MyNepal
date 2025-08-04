@@ -47,10 +47,11 @@ p {
     position: fixed;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, 0.95);
+    background: rgba(32, 32, 32, 0.892);
+    background: transparent;
     backdrop-filter: blur(10px);
     z-index: 1000;
-    border-bottom: 1px solid var(--nepal-dark-grey);
+    border-bottom: 0.1px solid var(--nepal-dark-grey);
 }
 
 .nav-container {
@@ -67,6 +68,7 @@ p {
     color: var(--nepal-orange);
     font-size: 1.5rem;
     font-weight: 700;
+    
 }
 
 .nav-menu {
@@ -102,8 +104,8 @@ p {
 /* Hero Section */
 .hero {
     height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('https://images.unsplash.com/photo-1544966503-7cc5ac882d5e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080') center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(40, 39, 39, 0.300)),
+                url('img/main_photo.jpg') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -190,7 +192,7 @@ p {
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 1rem;
-    color: var(--nepal-white);
+    color: #f07504;
 }
 
 .section-description {
@@ -388,7 +390,7 @@ p {
 
 /* Footer */
 .footer {
-    background: var(--nepal-black);
+    background: var(--nepal-dark-grey);
     padding: 3rem 0 1rem;
     border-top: 1px solid var(--nepal-dark-grey);
 }
@@ -520,7 +522,7 @@ p {
         left: -100%;
         width: 100%;
         height: calc(100vh - 70px);
-        background: rgba(0, 0, 0, 0.95);
+        background: rgba(10, 10, 10, 0.73);
         flex-direction: column;
         align-items: center;
         justify-content: flex-start;
